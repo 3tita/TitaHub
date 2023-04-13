@@ -1,0 +1,20 @@
+print(" T I T A H U B by Tita")
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Tita Hub", "Synapse")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Blackies")
+
+MainSection:NewButton("Project Slayers Script", "Yes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3tita/TitaHubPROJECTSLAYERS/main/Protected.lua"))()
+end)
+
+MainSection:NewButton("Your Bizzare Adventure", "Yes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3tita/TitaHub/main/Protected%20(1).lua"))()
+end)
+
+MainSection:NewButton("Project Mugetsu WIP", "Work In Progress", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3tita/TitaHub/main/Protected%20(3).lua"))()
+end)

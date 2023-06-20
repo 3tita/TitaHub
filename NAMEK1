@@ -8,33 +8,30 @@ local args = {
 game:GetService("ReplicatedStorage").endpoints.client_to_server.toggle_setting:InvokeServer(unpack(args))
 
   if true then 
- wait()
+wait()
 local args = {
     [1] = niggerunit
 }
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.upgrade_unit_ingame:InvokeServer(unpack(args))
-end
 
 local args = {
     [1] = niggerunit2
 }
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.upgrade_unit_ingame:InvokeServer(unpack(args))
-end
+
 local args = {
     [1] = niggerunit3
 }
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.upgrade_unit_ingame:InvokeServer(unpack(args))
-end
 
 local args = {
     [1] = niggerunit4
 }
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.upgrade_unit_ingame:InvokeServer(unpack(args))
-end
 
 local args = {
     [1] = niggerunit5

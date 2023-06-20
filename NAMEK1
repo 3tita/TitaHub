@@ -1,0 +1,23 @@
+game:GetService("ReplicatedStorage").endpoints.client_to_server.vote_start:InvokeServer()
+
+local args = {
+    [1] = "autoskip_waves",
+    [2] = autoskipnig
+}
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.toggle_setting:InvokeServer(unpack(args))
+
+  if true then 
+ wait()
+local args = {
+    [1] = niggerunit
+}
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.upgrade_unit_ingame:InvokeServer(unpack(args))
+end
+
+local args = {
+    [1] = choiceyes
+}
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.set_game_finished_vote:InvokeServer(unpack(args))

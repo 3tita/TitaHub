@@ -17,6 +17,34 @@ game:GetService("ReplicatedStorage").endpoints.client_to_server.upgrade_unit_ing
 end
 
 local args = {
+    [1] = niggerunit2
+}
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.upgrade_unit_ingame:InvokeServer(unpack(args))
+end
+local args = {
+    [1] = niggerunit3
+}
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.upgrade_unit_ingame:InvokeServer(unpack(args))
+end
+
+local args = {
+    [1] = niggerunit4
+}
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.upgrade_unit_ingame:InvokeServer(unpack(args))
+end
+
+local args = {
+    [1] = niggerunit5
+}
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.upgrade_unit_ingame:InvokeServer(unpack(args))
+end
+
+
+local args = {
     [1] = choiceyes
 }
 
